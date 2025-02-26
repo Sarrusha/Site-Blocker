@@ -71,7 +71,7 @@ It will open a new page. Scroll down near the end and click on Extension Options
 
 ---
 ### **Installation from Chrome Chrome Web Store**
-
+[[Still to do]]
 
 ### **Installation from github** 
 
