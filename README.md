@@ -21,38 +21,39 @@ Plus, it automatically clears expired rules to keep your blocklist clean and up-
 ## WHERE IS THE BLOCKED LIST?
 *You can find the blocked site list this way*  
 Go to Extension -> manage extensions;  
-You'll see Site Blocker. Under its title, click on "Details". It will open a new page, go down near the end click on "Extension options". Here you will see the active list.
+You'll see Site Blocker. Under its title, click on "Details".  
+It will open a new page, go down near the end click on "Extension options". Here you will see the active list.
 
 ### **Features**
 
 1. **Block Specific Pages or Entire Websites**:
-  - Block the current page you're on for a duration of your choice, selected from the drop-down menu.
-  - Block an entire website (all pages under the same domain) using the duration already set in the drop-down menu.
+   - Block the current page you're on for a duration of your choice, selected from the drop-down menu.
+   - Block an entire website (all pages under the same domain) using the duration already set in the drop-down menu.
 
 2. **Customizable Block Duration**:
-  - Choose between blocking for **1 week** or **1 month**. Default 1 week. Just click on one of the 2 blocks and it will block it for the selected time period.
+   - Choose between blocking for **1 week** or **1 month**. Default 1 week. Just click on one of the 2 blocks and it will block it for the selected time period.
 
 3. **Automatic Cleanup**:
-  - Expired blocking rules are automatically removed every minute, ensuring your blocklist stays clean.
+   - Expired blocking rules are automatically removed every minute, ensuring your blocklist stays clean.
 
 4. **Real-Time Blocking**:
-  - The extension checks if the current page is blocked as soon as the page loads, and it also monitors client-side navigation (e.g., clicking links) to ensure blocked pages are not accessed.
+   - The extension checks if the current page is blocked as soon as the page loads, and it also monitors client-side navigation (e.g., clicking links) to ensure blocked pages are not accessed.
 
 2. **Background Script**:
-  - The background script handles the creation and removal of blocking rules using Chrome's `declarativeNetRequest` API.
-  - It also listens for messages from the popup and content scripts to add new blocking rules or check if a page is blocked.
+   - The background script handles the creation and removal of blocking rules using Chrome's `declarativeNetRequest` API.
+   - It also listens for messages from the popup and content scripts to add new blocking rules or check if a page is blocked.
 
 3. **Content Script**:
-  - The content script runs on every page and checks if the current URL is blocked. If it is, the page is stopped from loading, and a message is displayed indicating that the page is blocked.
+   - The content script runs on every page and checks if the current URL is blocked. If it is, the page is stopped from loading, and a message is displayed indicating that the page is blocked.
 
 4. **Options Page**:
-  - The options page displays a list of all currently blocked websites or pages, along with their expiration dates.
+   - The options page displays a list of all currently blocked websites or pages, along with their expiration dates.
 
 ---
 
 ### **More technical stuff**
 
-- **Permissions**:
+**Permissions**:
   - `storage`: To store and retrieve blocking rules.
   - `tabs`: To get the current tab's URL.
   - `declarativeNetRequest`: To dynamically add and remove blocking rules.
