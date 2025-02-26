@@ -1,7 +1,7 @@
 # Site-Blocker
 
-![Example blocked page](https://github.com/user-attachments/assets/316f0d0c-28df-4327-9db9-a4b55b7dabc3)
-/n
+![Example blocked page](https://github.com/user-attachments/assets/316f0d0c-28df-4327-9db9-a4b55b7dabc3)  
+
 *Final result, free yourself from distractions!*
 
 #### Why I did this?
@@ -10,7 +10,7 @@ Plus, it automatically clears expired rules to keep your blocklist clean and up-
 
 ---
 
-## **HOW USE IT**
+## **HOW TO USE IT**
 
 1. Navigate to any website you want to block.
 2. Click on the **Site Blocker** extension icon.
