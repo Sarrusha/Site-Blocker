@@ -1,6 +1,7 @@
 # Site-Blocker
 
 ![Example blocked page](https://github.com/user-attachments/assets/316f0d0c-28df-4327-9db9-a4b55b7dabc3)
+/n
 *Final result, free yourself from distractions!*
 
 #### Why I did this?
@@ -76,7 +77,7 @@ You'll see Site Blocker. Under its title, click on "Details". It will open a new
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/site-blocker.git
+   git clone [https://github.com/Sarrusha/Site-Blocker.git]
    ```
 2. Open Chrome and go to `chrome://extensions/`.
 3. Enable **Developer mode** (toggle in the top right corner).
