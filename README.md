@@ -24,6 +24,10 @@ Go to Extension -> manage extensions;
 You'll see Site Blocker. Under its title, click on "Details".  
 It will open a new page, go down near the end click on "Extension options". Here you will see the active list.
 
+![Blocked list examples   how long](https://github.com/user-attachments/assets/651ef3b2-482f-4c5c-8911-fc0405e81e2d)  
+*Example of blocked websites. Notice both specific and wide domain blocks, and block expiration dates.*
+
+
 ### **Features**
 
 1. **Block Specific Pages or Entire Websites**:
@@ -48,6 +52,9 @@ It will open a new page, go down near the end click on "Extension options". Here
 
 4. **Options Page**:
    - The options page displays a list of all currently blocked websites or pages, along with their expiration dates.
+
+![Block Lenght](https://github.com/user-attachments/assets/f9918b88-436d-48ee-81f4-d0de75381177)  
+*Select lenght BEFORE clicking one of the Block commands!*
 
 ---
 
