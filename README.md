@@ -20,9 +20,9 @@ Plus, it automatically clears expired rules to keep your blocklist clean and up-
 
 ## WHERE IS THE BLOCKED LIST?
 *You can find the blocked site list this way*  
-Go to Extension -> manage extensions;  
-You'll see Site Blocker. Under its title, click on "Details".  
-It will open a new page, go down near the end click on "Extension options". Here you will see the active list.
+Go to Extensions -> Manage Extensions.
+You'll see Site Blocker. Under its title, click on Details.
+It will open a new page. Scroll down near the end and click on Extension Options. Here you will see the active list.
 
 ![Blocked list examples   how long](https://github.com/user-attachments/assets/651ef3b2-482f-4c5c-8911-fc0405e81e2d)  
 *Example of blocked websites. Notice both specific and wide domain blocks, and block expiration dates.*
@@ -35,7 +35,7 @@ It will open a new page, go down near the end click on "Extension options". Here
    - Block an entire website (all pages under the same domain) using the duration already set in the drop-down menu.
 
 2. **Customizable Block Duration**:
-   - Choose between blocking for **1 week** or **1 month**. Default 1 week. Just click on one of the 2 blocks and it will block it for the selected time period.
+   - Choose between blocking for **1 week** or **1 month**. The default is 1 week. Just click on one of the two options, and it will block the site for the selected time period.
 
 3. **Automatic Cleanup**:
    - Expired blocking rules are automatically removed every minute, ensuring your blocklist stays clean.
